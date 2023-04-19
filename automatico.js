@@ -28,3 +28,12 @@ carrusel.addEventListener("mouseout", () => {
 });
 
 start();
+
+function cambiarEstilo() {
+  var estilo = document.getElementById("estilo");
+  if (estilo.getAttribute("href") == "estilos.css") {
+    estilo.href = "estilo2.css";
+  } else {
+    estilo.href = "estilos.css";
+  }
+}

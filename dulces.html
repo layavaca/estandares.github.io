@@ -5,108 +5,88 @@
     <title>Tienda</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    
-    <link rel="stylesheet" type="text/css" href="estilos.css" />
-    
+
+    <link id="estilo" rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="stylesheet" href="estilo2.css" />
   </head>
   <body>
-    <h1><em>Tienda Martita</em></h1>
+    <section class="fondo">
+      <h1><em>Tienda Martita</em></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Principal </a></li>
+          <li><a href="dulces.html">Dulceria</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <button class="button1" onclick="cambiarEstilo()">
+            Cambiar estilo
+          </button>
+        </ul>
+      </nav>
 
-    <nav>
-      <ul>
-        <li><a href="">Principal </a></li>
-        <li><a href="">Accesorios Coleccion </a></li>
-        <li><a href="dulces.html">Dulceria</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-    <div class="centrar">
-      <p>Conoce nuestros productos</p>
-    </div>
-    <div class="carrusel">
-      <div class="carrusel-items">
-        <div class="carrusel-item">
-          <a
-            title="Chevrolet"
-            href="https://www.chevrolet.com.ec/"
-            target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhZc58Ae9X8R_n-NR0QSN-JJ_EMYFqEPCM8g&usqp=CAU" alt="Chevrolet"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a title="Toyota" href="https://www.toyota.com.ec/" target="_blank"
-            ><img src="https://lh3.googleusercontent.com/p/AF1QipOykkUbQnf_OZO1Vv-gSl9LaGbhorFxrDATnfq2=w1080-h608-p-no-v0" alt="Toyota"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a title="Kia" href="https://www.kia.com/ec/main.html" target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPGlIwjOqGwtBC5UL_sXVQ_a6K5RR-2Sap8Q&usqp=CAU" alt="Kia"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a title="Mazda" href="https://www.mazda.com.ec/" target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbTFVOjlHbpQVPuxzGEzzAn2BoNfe8-VKLSg&usqp=CAU" alt="Mazda"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a
-            title="Chevrolet"
-            href="https://www.chevrolet.com.ec/"
-            target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzsuQP761-IaoGXqBgQXyNSHu6Mu9P8M7UnA&usqp=CAU" alt="Chevrolet"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a
-            title="Volkswagen"
-            href="https://www.volkswagen.com.ec/es.html/"
-            target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAAlZR532cYqjfleA4v3OhL2wbpsM2VT0idQ&usqp=CAU" alt="Volkswagen"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a
-            title="Chevrolet"
-            href="https://www.chevrolet.com.ec/"
-            target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgXO2V-kgSG2v4VaJwpgk1dg1nABan5hPQDQ&usqp=CAU" alt="Chevrolet"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a title="Toyota" href="https://www.toyota.com.ec/" target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkwtEYKeKHQVAE5T8F8Ifergu18y_9Ei7Uw&usqp=CAU" alt="Toyota"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a title="Kia" href="https://www.kia.com/ec/main.html" target="_blank"
-            ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkwtEYKeKHQVAE5T8F8Ifergu18y_9Ei7Uw&usqp=CAU" alt="Kia"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a title="Mazda" href="https://www.mazda.com.ec/" target="_blank"
-            ><img
+      <div class="centrar">
+        <p>Conoce nuestros productos</p>
+      </div>
+
+      <div class="carrusel">
+        <div class="carrusel-items">
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhZc58Ae9X8R_n-NR0QSN-JJ_EMYFqEPCM8g&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://lh3.googleusercontent.com/p/AF1QipOykkUbQnf_OZO1Vv-gSl9LaGbhorFxrDATnfq2=w1080-h608-p-no-v0"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPGlIwjOqGwtBC5UL_sXVQ_a6K5RR-2Sap8Q&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbTFVOjlHbpQVPuxzGEzzAn2BoNfe8-VKLSg&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv-5yi0g8fGFbfgKn6HdkKVzpD6w9HIKGUyg&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUNn_D2N4ONyVZsSfOMxY6qx1gz5Vsv1SVQA&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgXO2V-kgSG2v4VaJwpgk1dg1nABan5hPQDQ&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkwtEYKeKHQVAE5T8F8Ifergu18y_9Ei7Uw&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUU-Xwji5nbU1Tyn0NL75Tfx4WY-hJhbksSblf9JuPmqirpI5uDsot-ocP2yUSrZ07yQ&usqp=CAU"
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
               src="https://thumbs.dreamstime.com/z/dulces-tradicionales-en-ecuador-97719632.jpg"
-              alt="Mazda"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <a
-            title="Chevrolet"
-            href="https://www.chevrolet.com.ec/"
-            target="_blank"
-            ><img
+            />
+          </div>
+          <div class="carrusel-item">
+            <img
               src="https://imagenes.expreso.ec/files/image_700_402/files/fp/uploads/2022/09/13/6320b6993c476.r_d.672-112-9511.jpeg"
-              alt="Chevrolet"
-          /></a>
-        </div>
-        <div class="carrusel-item">
-          <img
-            src="https://img2.rtve.es/i/?w=1600&i=1628606892247.jpg"
-            alt=""
-          />
+            />
+          </div>
         </div>
       </div>
-    </div>
-    <script src="automático.js"></script>
+    </section>
+    <script src="automatico.js"></script>
   </body>
 </html>
