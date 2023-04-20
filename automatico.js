@@ -1,3 +1,4 @@
+
 const carrusel = document.querySelector(".carrusel-items");
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
 let intervalo = null;
