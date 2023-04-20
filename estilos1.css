@@ -1,6 +1,6 @@
 .fondo {
-  background: url('https://i.pinimg.com/originals/c9/9e/35/c99e353f761d318322c853c03ebcf21b.gif') no-repeat
-    center center fixed;
+  background: url('https://i.pinimg.com/originals/c9/9e/35/c99e353f761d318322c853c03ebcf21b.gif')
+    no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -11,7 +11,7 @@
   padding: 0;
   margin: 0;
 }
-.titulo{
+.titulo {
   text-align: center;
   background-color: black;
   color: white;
@@ -99,16 +99,14 @@ nav li:hover {
   background-color: #8fb9f8;
 }
 
-.conoce{
+.conoce {
   text-align: center;
   background-color: rgb(231, 49, 49);
   color: white;
   padding: 20px;
 }
 
-
-
-.blanco{
+.blanco {
   text-align: center;
   background-color: rgb(128, 23, 23);
   color: black;
@@ -117,7 +115,7 @@ nav li:hover {
   margin: 1em auto;
 }
 
-.blanco1{
+.blanco1 {
   text-align: center;
   background-color: rgb(83, 52, 139);
   color: rgb(253, 246, 246);
@@ -125,4 +123,3 @@ nav li:hover {
   width: -webkit-fit-content;
   margin: 1em auto;
 }
-
