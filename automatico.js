@@ -31,9 +31,9 @@ start();
 
 function cambiarEstilo() {
   var estilo = document.getElementById("estilo");
-  if (estilo.getAttribute("href") == "estilos.css") {
+  if (estilo.getAttribute("href") == "estilos1.css") {
     estilo.href = "estilo2.css";
   } else {
-    estilo.href = "estilos.css";
+    estilo.href = "estilos1.css";
   }
 }

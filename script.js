@@ -38,5 +38,7 @@ formulario.addEventListener('submit', function (event) {
   }
 
   // Si todo está bien, enviar el formulario
-  formulario.submit();
+  formulario.submit('Todo bien ');
+  alert('Se Registro Correctamente');
 });
+

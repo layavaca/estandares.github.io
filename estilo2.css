@@ -2,10 +2,25 @@
   padding: 0;
   margin: 0;
 }
+.fondo{
+  background: url('https://vocaciones.fundacionypf.org.ar/back/public/upload/mujeresteam/thumb/thumb_3230687.gif') no-repeat
+    center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.titulo {
+  text-align: center;
+  background-color: rgb(26, 6, 49);
+  color: white;
+  padding: 20px;
+}
 
 h1 {
   text-align: center;
-  background-color: black;
+  background-color: rgb(192, 199, 103);
   color: white;
   padding: 20px;
 }
