@@ -1,6 +1,4 @@
-
 const carrusel = document.querySelector(".carrusel-items");
-
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
 let intervalo = null;
 let step = 1;
@@ -14,19 +12,15 @@ const start = () => {
     }
   }, 10);
 };
-
 const stop = () => {
   clearInterval(intervalo);
 };
-
 carrusel.addEventListener("mouseover", () => {
   stop();
 });
-
 carrusel.addEventListener("mouseout", () => {
   start();
 });
-
 start();
 
 function cambiarEstilo() {
