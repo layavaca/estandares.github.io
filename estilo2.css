@@ -2,14 +2,6 @@
   padding: 0;
   margin: 0;
 }
-.fondo{
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGtnCPsQUAD6Uami4S4IYoYZz84pWiGW92hg&usqp=CAU') no-repeat
-    center center fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
 
 .titulo {
   text-align: center;
@@ -86,4 +78,35 @@ nav li:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.fondo {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGtnCPsQUAD6Uami4S4IYoYZz84pWiGW92hg&usqp=CAU')
+    no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.centrar,
+.blanco, .blanco1 {
+  font-family: Franklin Gothic;
+}
+.blanco {
+  text-align: center;
+  background-color: rgb(151, 138, 138);
+  color: black;
+  padding: 1em;
+  width: -webkit-fit-content;
+  margin: 1em auto;
+}
+
+.blanco1 {
+  text-align: center;
+  background-color: rgb(162, 194, 18);
+  color: rgb(253, 246, 246);
+  padding: 1em;
+  width: -webkit-fit-content;
+  margin: 1em auto;
 }

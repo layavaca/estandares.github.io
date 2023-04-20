@@ -35,6 +35,13 @@ img {
   border-radius: 50%;
   object-fit: cover;
 }
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 .contenido {
   display: flex;
   margin: 60px;
@@ -89,7 +96,6 @@ footer p {
   background-color: #4caf50;
 } /* Green */
 
-
 body {
   background: url('https://raw.githubusercontent.com/RogerNatividad/Crear-un-Formulario-de-Registro-con-HTML-y-CSS-/master/fondo.jpg')
     no-repeat center center fixed;
@@ -99,19 +105,18 @@ body {
   -o-background-size: cover;
 }
 
-
 .texto {
-  font-family: Cambria	;
+  font-family: Cambria;
 }
 
-.historia{
+.historia {
   text-align: center;
   background-color: rgb(209, 207, 93);
   color: rgb(4, 8, 5);
   padding: 20px;
 }
 
-.historia2{
+.historia2 {
   text-align: center;
   background-color: rgb(185, 183, 211);
   color: rgb(47, 77, 209);
@@ -122,5 +127,3 @@ body {
   display: grid;
   place-content: center;
 }
-
-
