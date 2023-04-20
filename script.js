@@ -16,7 +16,6 @@ formulario.addEventListener('submit', function (event) {
     alert('El campo nombre es obligatorio');
     return;
   }
-
   if (!apellidos) {
     alert('El campo nombre es obligatorio');
     return;
@@ -31,7 +30,6 @@ formulario.addEventListener('submit', function (event) {
     if (password.charAt(cont) == ' ') espacios = true;
     cont++;
   }
-
   if (espacios) {
     alert('La contraseña no puede contener espacios en blanco');
     return false;
